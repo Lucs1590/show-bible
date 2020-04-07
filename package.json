@@ -1,0 +1,15 @@
+{
+  "name": "show-bible",
+  "version": "1.0.0",
+  "description": "This is a package that returns a verse of the bible. I hope that package can bless your life!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bible", "node", "bible-api"],
+  "author": "lucs1590",
+  "license": "ISC"
+}
