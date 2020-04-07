@@ -2,14 +2,23 @@
   "name": "show-bible",
   "version": "1.0.0",
   "description": "This is a package that returns a verse of the bible. I hope that package can bless your life!",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "main": "./lib/index.js",
+  "bin": {
+    "show-bible": "bin/bible.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["bible", "node", "bible-api"],
+  "keywords": [
+    "bible",
+    "node",
+    "bible-api"
+  ],
   "author": "lucs1590",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "preferGlobal": true
 }
