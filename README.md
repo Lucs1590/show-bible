@@ -6,6 +6,6 @@ This is a package that returns a verse of the bible. I hope that package can ble
 [![Test Coverage](https://api.codeclimate.com/v1/badges/513e314e2e9f7a1cbd4c/test_coverage)](https://codeclimate.com/github/Lucs1590/show-bible/test_coverage)
 
 
-# Tanks
+# Acknowledgements
 Thank you [Márcio Vinícius Sena](https://github.com/marciovsena) for build this amazing REST API:
  - [bibleapi](https://github.com/marciovsena/bibleapi)
