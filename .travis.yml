@@ -17,7 +17,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - node_modules/karma/bin/karma start my.conf.js --singleRun
+  - karma start my.conf.js --singleRun
 
 before_install:
     - export DISPLAY=:99.0
