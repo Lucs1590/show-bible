@@ -2,23 +2,41 @@
   "name": "show-bible",
   "version": "1.0.0",
   "description": "This is a package that returns a verse of the bible. I hope that package can bless your life!",
+  "keywords": [
+    "bible",
+    "node",
+    "bible-api",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Lucs1590/show-bible#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucs1590/show-bible.git"
+  },
+  "license": "ISC",
+  "author": "Lucas Brito (lucs1590)",
   "main": "./lib/index.js",
   "bin": {
     "show-bible": "bin/bible.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start my.conf.js --singleRun"
   },
-  "keywords": [
-    "bible",
-    "node",
-    "bible-api"
-  ],
-  "author": "lucs1590",
-  "license": "ISC",
   "dependencies": {
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.3.0",
+    "karma-jasmine": "^3.1.1"
+  },
+  "engines": {
+    "node": ">= 10.9.0",
+    "npm": ">= 6.2.0"
   },
   "preferGlobal": true
 }
